@@ -7,11 +7,13 @@
 
 .navbar
 {
+    
     background-color: #af5cba;
     height: 100px;
 }
 .navigation
 {
+    
     display: flex;
     padding: 35px 0px;
     align-items: center;
@@ -20,6 +22,7 @@
 
 .navigation ul li
 {
+    
     list-style: none;
     padding: 1px 12px;
     margin: -6px 15px;
@@ -27,6 +30,7 @@
 }
 
 .navigation ul li::after{
+   
     content: '';
     height: 3px;
     width: 0;
@@ -36,8 +40,12 @@
     bottom: -10px;
     transition: 0.5s;
 }
+#navbar{
+    position: sticky;
+}
 .navigation ul li:hover::after
 {
+    
     width: 100%;
 }
 .navbar-nav li
@@ -233,3 +241,518 @@ button:hover
     font-size: 40px;
     transition: 0.5s;
 }
+.spacer{
+    aspect-ratio: 900/400;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{
+    background-image: url('c:\Users\kr\Downloads\layered-waves-haikei (1).s');
+}
+
+.logo
+{
+    align-items: center;
+    
+}
+
+.navbar
+{
+    
+    background-color: #af5cba;
+    height: 100px;
+}
+.navigation
+{
+    
+    display: flex;
+    padding: 35px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation ul li
+{
+    
+    list-style: none;
+    padding: 1px 12px;
+    margin: -6px 15px;
+    position: relative;
+}
+
+.navigation ul li::after{
+   
+    content: '';
+    height: 3px;
+    width: 0;
+   background:#ffffff;
+   position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+#navbar{
+    position: sticky;
+}
+.navigation ul li:hover::after
+{
+    
+    width: 100%;
+}
+.navbar-nav li
+{
+  margin: 50px 0px;
+  padding: 2px 3px;
+  position: relative;
+
+}
+.home
+{
+    height: 600px;
+    background:#dfc596;
+    z-index: -1;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+}
+.home-content
+{
+    padding: 2px 30px;
+    width: 900px;
+}
+.home-content h3{
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Dongle', sans-serif;
+    color:#af5cba;
+}
+.home-content p{
+    font-size: 15px;
+}
+svg{
+    display: block;
+    background-color:#af5cba;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(176, 93, 187);
+    background: transparent;
+    color: black;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+}
+span{
+    background: rgb(176, 93, 187);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover
+{
+  border: none;
+}
+.service
+{
+    background-color: #af5cba;
+    display: flex;
+    flex-direction: column;
+}
+.svcsection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.row
+{
+    display: flex;
+    margin: 30px;
+}
+.col
+{
+    border: 1px solid rgb(151, 42, 165);
+    border-radius: 24px;
+    padding: 20px;
+    margin: 2px 5px;
+    background-color: rgb(219, 165, 236)
+}
+.col a
+{
+   text-decoration: none;
+   font-size: 30px;
+   color: black;
+}
+.col:hover 
+{
+    background-color: aqua;
+}
+.col a:hover{
+    color: red;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.col1 a
+{
+   text-decoration: none;
+   font-size: 30px;
+   color: black;
+}
+.col1 a:hover{
+    color: red;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.doctor
+{
+    background-color: #5cbaaa;
+    display: flex;
+    flex-direction: column;
+}
+.docsection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.row1
+{
+    display: flex;
+    margin: 30px;
+}
+.col1
+{
+    border: 1px solid rgb(151, 42, 165);
+    border-radius: 24px;
+    padding: 20px;
+    margin: 2px 5px;
+    background-color: rgb(219, 165, 236)
+}
+.col1:hover{
+    background-color: aqua;
+}
+.col1 h1:hover
+{
+    font: 200px;
+}
+.about
+{
+    background-color: rgb(10, 58, 129);
+    display: flex;
+    flex-direction: column;
+}
+.abtsection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.row2
+{
+    display: flex;
+    margin: 30px;
+}
+.col2
+{
+    border: 1px solid rgb(151, 42, 165);
+    border-radius: 24px;
+    padding: 20px;
+    margin: 2px 5px;
+    background-color: rgb(219, 165, 236)
+}
+.col2:hover{
+   background-color: aqua;
+
+}
+.col2 a
+{
+   text-decoration: none;
+   font-size: 30px;
+   color: black;
+}
+.col2 a:hover{
+    color: red;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.spacer{
+    aspect-ratio: 900/400;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{
+    background-image: url('c:\Users\kr\Downloads\layered-waves-haikei (1).s');
+}
+
+.logo
+{
+    align-items: center;
+    
+}
+
+.navbar
+{
+    
+    background-color: #af5cba;
+    height: 100px;
+}
+.navigation
+{
+    
+    display: flex;
+    padding: 35px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation ul li
+{
+    
+    list-style: none;
+    padding: 1px 12px;
+    margin: -6px 15px;
+    position: relative;
+}
+
+.navigation ul li::after{
+   
+    content: '';
+    height: 3px;
+    width: 0;
+   background:#ffffff;
+   position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+#navbar{
+    position: sticky;
+}
+.navigation ul li:hover::after
+{
+    
+    width: 100%;
+}
+.navbar-nav li
+{
+  margin: 50px 0px;
+  padding: 2px 3px;
+  position: relative;
+
+}
+.home
+{
+    height: 600px;
+    background:#dfc596;
+    z-index: -1;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+}
+.home-content
+{
+    padding: 2px 30px;
+    width: 900px;
+}
+.home-content h3{
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Dongle', sans-serif;
+    color:#af5cba;
+}
+.home-content p{
+    font-size: 15px;
+}
+svg{
+    display: block;
+    background-color:#af5cba;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(176, 93, 187);
+    background: transparent;
+    color: black;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+}
+span{
+    background: rgb(176, 93, 187);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover
+{
+  border: none;
+}
+.service
+{
+    background-color: #af5cba;
+    display: flex;
+    flex-direction: column;
+}
+.svcsection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.row
+{
+    display: flex;
+    margin: 30px;
+}
+.col
+{
+    border: 1px solid rgb(151, 42, 165);
+    border-radius: 24px;
+    padding: 20px;
+    margin: 2px 5px;
+    background-color: rgb(219, 165, 236)
+}
+.col a
+{
+   text-decoration: none;
+   font-size: 30px;
+   color: black;
+}
+.col:hover 
+{
+    background-color: aqua;
+}
+.col a:hover{
+    color: red;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.col1 a
+{
+   text-decoration: none;
+   font-size: 30px;
+   color: black;
+}
+.col1 a:hover{
+    color: red;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.doctor
+{
+    background-color: #5cbaaa;
+    display: flex;
+    flex-direction: column;
+}
+.docsection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.row1
+{
+    display: flex;
+    margin: 30px;
+}
+.col1
+{
+    border: 1px solid rgb(151, 42, 165);
+    border-radius: 24px;
+    padding: 20px;
+    margin: 2px 5px;
+    background-color: rgb(219, 165, 236)
+}
+.col1:hover{
+    background-color: aqua;
+}
+.col1 h1:hover
+{
+    font: 200px;
+}
+.about
+{
+    background-color: rgb(10, 58, 129);
+    display: flex;
+    flex-direction: column;
+}
+.abtsection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.row2
+{
+    display: flex;
+    margin: 30px;
+}
+.col2
+{
+    border: 1px solid rgb(151, 42, 165);
+    border-radius: 24px;
+    padding: 20px;
+    margin: 2px 5px;
+    background-color: rgb(219, 165, 236)
+}
+.col2:hover{
+   background-color: aqua;
+
+}
+.col2 a
+{
+   text-decoration: none;
+   font-size: 30px;
+   color: black;
+}
+.col2 a:hover{
+    color: red;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.spacer{
+    aspect-ratio: 900/400;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{
+background-image: url('layer1.svg');}
